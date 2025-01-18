@@ -139,7 +139,7 @@ Output: ⚠️ Error: Invalid binary segment detected -> '0110a11'. Only 0 and 1
 Input: 0100100 01100101 01101100
 Output: ⚠️ Error: Each binary segment must be 8 bits. Error at -> '0100100'.
 ```
-📜 License CC0 1.0 Universal
+📜 License CC0 1.0 Universal<br />
 binary-to-text (c) Gregory L. Magnusson CC0 1.0 Universal License. Feel free to modify and distribute.
 
 🔧 Built for Developers
