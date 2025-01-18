@@ -1,4 +1,4 @@
-# binarytotext
+# binary-to-text
 
 # 🖥️ Binary to Text Converter
 
