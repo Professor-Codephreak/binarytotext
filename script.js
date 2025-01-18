@@ -16,10 +16,10 @@ let historyIndex = -1;
 
 // Welcome Message
 const showWelcomeMessage = () => {
-    term.writeln("Welcome to the Enhanced Text ↔ Binary Converter");
-    term.writeln("Type 'text2bin <your text>' to convert text to binary.");
-    term.writeln("Type 'bin2text <binary>' to convert binary to text.");
-    term.writeln("Type 'help' for available commands.");
+    term.writeln("Text ↔ Binary Converter");
+    term.writeln("Type 'text2bin yourtexthere' to convert text to binary.");
+    term.writeln("Type 'bin2text putbinaryhere' to convert binary to text.");
+    term.writeln("Type help for available commands.");
     term.writeln("---------------------------------------------------");
     term.prompt();
 };
