@@ -54,7 +54,7 @@ This Python program converts binary strings into human-readable text. It is desi
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Professor-Codephreak/binary-to-text-converter.git
+git clone https://github.com/Professor-Codephreak/binarytotext.git
 cd binary-to-text-converter
 python binary_to_text.py
 ```
