@@ -4,6 +4,40 @@
 
 ## 📚 Description
 
+🚀 Enhanced Features Summary
+🛡 Robust Error Handling
+
+Detects invalid binary sequences and alerts users.
+📜 Command History
+
+Navigate with Arrow Up/Down.
+⌨️ Keyboard Shortcuts
+
+Ctrl + L → Clears terminal.
+⏳ Loading Animation
+
+Feedback during conversions.
+🖥 Responsive UI
+
+Mobile-friendly and auto-scrolls output.
+🔥 Usage Examples
+Convert Text to Binary:
+
+text2bin Hello
+Output:
+
+makefile
+Binary: 01001000 01100101 01101100 01101100 01101111
+Convert Binary to Text:
+
+bin2text 01001000 01100101 01101100 01101100 01101111
+Output:
+
+makefile
+Text: Hello
+
+---------------------------
+
 This Python program converts binary strings into human-readable text. It is designed to work seamlessly in both command-line interfaces and UI integrations like **terminal.js**.
 
 ## 🚀 Features
