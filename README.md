@@ -87,7 +87,7 @@ Example Input:
 Enter binary input: 01001000 01100101 01101100 01101100 01101111
 Decoded Text: Hello
 
-🔹 UI Integration (Terminal.js)
+🔹 UI Integration (xterm.js)
 
 This script is built for easy integration with web-based terminal interfaces.
 
