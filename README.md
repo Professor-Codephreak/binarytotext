@@ -105,7 +105,8 @@ RTFM
 #!/usr/bin/env python3
 """
 Binary to Text Converter
-Author: Gregory L. Magnusson
+Author: Gregory L. Magnusson CC0 1.0 Universal
+
 Description: Converts binary strings into human-readable text with robust error handling
 
 🔍 Code Explanation
