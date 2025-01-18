@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""
+Text to Binary Converter
+========================
+This script converts input text into its binary representation.
+
+Usage:
+    python text_to_binary.py "Hello, World!"
+"""
+
+import sys
+
+def text_to_binary(text):
+    """Convert text to binary (8-bit)."""
+    return ' '.join(format(ord(char), '08b') for char in text)
+
+def main():
+    if len(sys.argv) != 2:
+        print("⚠️  Error: Please provide a single text input.")
+        print("Usage: python text_to_binary.py \"Your text here\"")
+        sys.exit(1)
+
+    input_text = sys.argv[1]
+    binary_output = text_to_binary(input_text)
+
+    print(f"🔤 Original Text: {input_text}")
+    print(f"💾 Binary Output: {binary_output}")
+
+if __name__ == "__main__":
+    main()
