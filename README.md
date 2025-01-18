@@ -118,8 +118,8 @@ Conversion: Converts each valid 8-bit binary segment to its corresponding ASCII 
 Interactive CLI: Allows users to input binary data continuously.
 Exit Command: Typing 'exit' cleanly ends the program.
 Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit message.
-🔌 Integration with Terminal.js
-UI Compatibility: This script is designed to be easily integrated with terminal.js.
+🔌 Integration with xterm.js
+UI Compatibility: This script is designed to be easily integrated with xterm.js from script.js with style.css
 Backend Usage: Call the binary_to_text() function with user input from the frontend.
 
 
