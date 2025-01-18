@@ -110,60 +110,6 @@ MIT License
 Binary to Text Converter
 Author: Gregory L. Magnusson
 Description: Converts binary strings into human-readable text with robust error handling
-"""
-
-def binary_to_text(binary_input):
-    """
-    Converts a space-separated binary string to readable text.
-    
-    :param binary_input: String with space-separated 8-bit binary numbers.
-    :return: Decoded text or an error message.
-    """
-    try:
-        # Check if input is empty
-        if not binary_input.strip():
-            return "⚠️ Error: Input cannot be empty."
-
-        # Validate each binary segment
-        for b in binary_input.split():
-            if not all(char in '01' for char in b):
-                return f"⚠️ Error: Invalid binary segment detected -> '{b}'. Only 0 and 1 are allowed."
-            if len(b) != 8:
-                return f"⚠️ Error: Each binary segment must be 8 bits. Error at -> '{b}'."
-
-        # Convert binary to text
-        text_output = ''.join([chr(int(b, 2)) for b in binary_input.split()])
-        return f"✅ Decoded Text: {text_output}"
-
-    except Exception as e:
-        return f"⚠️ Error: {str(e)}"
-
-def main():
-    """
-    Main function for command-line interaction.
-    """
-    print("🖥️ Binary to Text Converter\n")
-    print("🔹 Enter space-separated 8-bit binary numbers to decode.")
-    print("🔹 Example: 01001000 01100101 01101100 01101100 01101111\n")
-
-    # Loop for continuous input
-    while True:
-        try:
-            binary_input = input("Enter binary input (or type 'exit' to quit): ").strip()
-            if binary_input.lower() == 'exit':
-                print("👋 Exiting Binary to Text Converter. Goodbye!")
-                break
-
-            result = binary_to_text(binary_input)
-            print(result + "\n")
-
-        except KeyboardInterrupt:
-            print("\n👋 Exiting Binary to Text Converter. Goodbye!")
-            break
-
-if __name__ == "__main__":
-    main()
-```
 
 🔍 Code Explanation
 🔹 Function: binary_to_text(binary_input)
@@ -178,6 +124,8 @@ Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit mess
 🔌 Integration with Terminal.js
 UI Compatibility: This script is designed to be easily integrated with terminal.js.
 Backend Usage: Call the binary_to_text() function with user input from the frontend.
+
+
 🔎 Example Inputs and Outputs
 ✅ Valid Input:
 ```vbnet
@@ -195,7 +143,7 @@ Output: ⚠️ Error: Each binary segment must be 8 bits. Error at -> '0100100'.
 ```
 
 📄 License
-This project is licensed under the MIT License. Feel free to modify and distribute.
+binary-to-text (c) Gregory L. Magnusson MIT License. Feel free to modify and distribute.
 
 🔧 Built for Developers
 💡 Designed for Simplicity
