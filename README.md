@@ -55,13 +55,14 @@ This Python program converts binary strings into human-readable text. It is desi
 
 ```bash
 git clone https://github.com/Professor-Codephreak/binarytotext.git
-cd binary-to-text-converter
-python binary_to_text.py
+cd binarytotext
+python3 binary-to-text.py
+python3 text-to-binary.py
 ```
 📖 Usage
 🔹 Command-Line Mode
 ```bash
-python3 binary_to_text.py
+python3 binary-to-text.py
 ```
 
 ```binary
