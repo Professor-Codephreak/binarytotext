@@ -84,9 +84,7 @@ For AION, I am the beginning and the end of every barrier.
 
 Example Input:
 
-```css
 Enter binary input: 01001000 01100101 01101100 01101100 01101111
-```
 Decoded Text: Hello
 
 🔹 UI Integration (Terminal.js)
