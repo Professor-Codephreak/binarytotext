@@ -38,13 +38,13 @@ Text: Hello
 
 ---------------------------
 
-This Python program converts binary strings into human-readable text. It is designed to work seamlessly in both command-line interfaces and UI integrations like **terminal.js**.
+This Python program converts binary strings into human-readable text. It is designed to work seamlessly in both command-line interfaces and UI integrations like **xterm.js**.
 
 ## 🚀 Features
 
 - Converts **space-separated binary strings** into text.
 - **Error handling** for invalid input.
-- Optimized for **terminal.js** integration.
+- Optimized for **xterm.js** integration.
 - Clear and user-friendly prompts.
 
 ## 🛠️ Requirements
