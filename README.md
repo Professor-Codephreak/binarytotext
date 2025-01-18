@@ -97,8 +97,7 @@ Use the function binary_to_text() in your backend and pass user input for smooth
 If the binary input is invalid, the program will alert the user</ br>
 ***Input must be space-separated 8-bit binary numbers***
 RTFM
-📜 License
-MIT License
+
 
 ## 📝 **binary_to_text.py**
 
@@ -139,8 +138,8 @@ Output: ⚠️ Error: Invalid binary segment detected -> '0110a11'. Only 0 and 1
 Input: 0100100 01100101 01101100
 Output: ⚠️ Error: Each binary segment must be 8 bits. Error at -> '0100100'.
 ```
-
-📄 License
+📜 License
+MIT License
 binary-to-text (c) Gregory L. Magnusson MIT License. Feel free to modify and distribute.
 
 🔧 Built for Developers
