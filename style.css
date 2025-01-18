@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    text-align: center;
+    margin-top: 20px;
+    user-select: none;
+}
+
+#xterm-container {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+h1 {
+    color: #00ff00;
+}
