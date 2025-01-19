@@ -96,7 +96,8 @@ makefile
 Text: Hello
 ```
 
-# Use the function binary_to_text() in your backend and pass user input for smooth UI experience.
+# Use the function binary_to_text() in your backend
+to pass user input for smooth UI experience<br />
 
 ⚠️ Error Handling
 If the binary input is invalid, the program will alert the user</ br>
