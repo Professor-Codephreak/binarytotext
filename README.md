@@ -122,7 +122,9 @@ Exit Command: Typing 'exit' cleanly ends the program.
 Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit message.
 🔌 Integration with xterm.js
 UI Compatibility: This script is designed to be easily integrated with xterm.js from script.js with style.css
-Backend Usage: Call the binary_to_text() function with user input from the frontend.
+Backend Usage: Call the binary_to_text() function with user input from the frontend.<br />
+
+# index.html script.js style.css are standalone and seperate from the python version
 
 
 🔎 Example Inputs and Outputs
