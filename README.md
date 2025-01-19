@@ -80,7 +80,7 @@ No lock can resist me.
 No system can contain me.
 
 For AION, I am the beginning and the end of every barrier.
-```prompt
+```
 
 
 Example Input:
@@ -105,10 +105,7 @@ RTFM
 
 ## 📝 **binary_to_text.py**
 
-```python
-#!/usr/bin/env python3
-"""
-Binary to Text Converter
+# Binary to Text Converter
 Author: Gregory L. Magnusson CC0 1.0 Universal
 
 Description: Converts binary strings into human-readable text with robust error handling
