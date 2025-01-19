@@ -132,18 +132,18 @@ Backend Usage: Call the binary_to_text() function with user input from the front
 
 🔎 Example Inputs and Outputs
 ✅ Valid Input:
-```vbnet
+```text
 Input: 01001000 01100101 01101100 01101100 01101111
 Output: ✅ Decoded Text: Hello
 ⚠️ Invalid Input (Non-Binary Character):
-```vbnet
+```
 
 Input: 01001000 01100101 01101100 0110a11
 Output: ⚠️ Error: Invalid binary segment detected -> '0110a11'. Only 0 and 1 are allowed.
 ⚠️ Invalid Input (Wrong Length):
-```vbnet
+```text
 Input: 0100100 01100101 01101100
-Output: ⚠️ Error: Each binary segment must be 8 bits. Error at -> '0100100'.
+Output: ⚠️ Error: Each binary segment must be 8 bits. Error at -> '0100100'
 ```
 📜 License CC0 1.0 Universal<br />
 binary-to-text (c) Gregory L. Magnusson CC0 1.0 Universal License. Feel free to modify and distribute.
