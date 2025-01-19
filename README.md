@@ -81,7 +81,7 @@ Feedback during conversions.
 Mobile-friendly and auto-scrolls output.
 🔥 Usage Examples
 Convert Text to Binary:
-
+```javascript
 text2bin Hello
 Output:
 
@@ -94,7 +94,7 @@ Output:
 
 makefile
 Text: Hello
-
+```
 
 # Use the function binary_to_text() in your backend and pass user input for smooth UI experience.
 
