@@ -124,7 +124,8 @@ Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit mess
 UI Compatibility: This script is designed to be easily integrated with xterm.js from script.js with style.css
 Backend Usage: Call the binary_to_text() function with user input from the frontend.<br />
 
-# index.html script.js style.css are standalone and seperate from the python version
+# index.html script.js style.css
+are standalone and seperate from the python version
 
 
 🔎 Example Inputs and Outputs
