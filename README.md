@@ -113,17 +113,17 @@ Description: Converts binary strings into human-readable text with robust error 
 
 🔍 Code Explanation
 🔹 Function: binary_to_text(binary_input)
-Purpose: Converts a space-separated binary string into readable text.
-Validation: Checks if input is empty, validates each segment for correct format (only 0 and 1), and ensures 8-bit segments.
-Error Handling: Returns user-friendly error messages if invalid data is detected.
-Conversion: Converts each valid 8-bit binary segment to its corresponding ASCII character.
-🔹 Function: main()
-Interactive CLI: Allows users to input binary data continuously.
-Exit Command: Typing 'exit' cleanly ends the program.
-Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit message.
-🔌 Integration with xterm.js
-UI Compatibility: This script is designed to be easily integrated with xterm.js from script.js with style.css
-Backend Usage: Call the binary_to_text() function with user input from the frontend.<br />
+Purpose: Converts a space-separated binary string into readable text<br />
+Validation: Checks if input is empty, validates each segment for correct format (only 0 and 1), and ensures 8-bit segments<br />
+Error Handling: Returns user-friendly error messages if invalid data is detected<br />
+Conversion: Converts each valid 8-bit binary segment to its corresponding ASCII character<br />
+🔹 Function: main()<br />
+Interactive CLI: Allows users to input binary data continuously<br />
+Exit Command: Typing 'exit' cleanly ends the program<br />
+Error Handling: Catches interruptions (Ctrl+C) and provides a friendly exit message<br />
+# 🔌 Integration with xterm.js
+UI Compatibility: This script is designed to be easily integrated with xterm.js from script.js with style.css<br />
+Backend Usage: Call the binary_to_text() function with user input from the frontend<br />
 
 # index.html script.js style.css
 are standalone and seperate from the python version
