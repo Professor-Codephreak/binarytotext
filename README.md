@@ -4,41 +4,8 @@
 
 ## 📚 Description
 
-🚀 Enhanced Features Summary
-🛡 Robust Error Handling
 
-Detects invalid binary sequences and alerts users.
-📜 Command History
-
-Navigate with Arrow Up/Down.
-⌨️ Keyboard Shortcuts
-
-Ctrl + L → Clears terminal.
-⏳ Loading Animation
-
-Feedback during conversions.
-🖥 Responsive UI
-
-Mobile-friendly and auto-scrolls output.
-🔥 Usage Examples
-Convert Text to Binary:
-
-text2bin Hello
-Output:
-
-makefile
-Binary: 01001000 01100101 01101100 01101100 01101111
-Convert Binary to Text:
-
-bin2text 01001000 01100101 01101100 01101100 01101111
-Output:
-
-makefile
-Text: Hello
-
----------------------------
-
-This Python program converts binary strings into human-readable text. It is designed to work seamlessly in both command-line interfaces and UI integrations like **xterm.js**.
+These Python scripts converts binary strings into human-readable text and text to binary. The python3 scripts are designed to work seamlessly as command-line interfaces with seperate standalone javascipt conversion from index.html script.js and style.css UI integration with **xterm.js**.
 
 ## 🚀 Features
 
@@ -92,11 +59,44 @@ Decoded Text: Hello
 are standalone and seperate from the python version
 
 
-🔹 UI Integration (xterm.js)
+# 🔹 UI Integration (xterm.js)
 
-This script is built for easy integration with web-based terminal interfaces.
+script.js is built for easy integration with web-based terminal interface<br />
 
-Use the function binary_to_text() in your backend and pass user input for smooth UI experience.
+🚀 Enhanced Features Summary
+🛡 Robust Error Handling
+
+Detects invalid binary sequences and alerts users.
+📜 Command History
+
+Navigate with Arrow Up/Down.
+⌨️ Keyboard Shortcuts
+
+Ctrl + L → Clears terminal.
+⏳ Loading Animation
+
+Feedback during conversions.
+🖥 Responsive UI
+
+Mobile-friendly and auto-scrolls output.
+🔥 Usage Examples
+Convert Text to Binary:
+
+text2bin Hello
+Output:
+
+makefile
+Binary: 01001000 01100101 01101100 01101100 01101111
+Convert Binary to Text:
+
+bin2text 01001000 01100101 01101100 01101100 01101111
+Output:
+
+makefile
+Text: Hello
+
+
+# Use the function binary_to_text() in your backend and pass user input for smooth UI experience.
 
 ⚠️ Error Handling
 If the binary input is invalid, the program will alert the user</ br>
@@ -104,7 +104,8 @@ If the binary input is invalid, the program will alert the user</ br>
 RTFM
 
 
-## 📝 **binary_to_text.py**
+## 📝 **binary_-to-text.py**
+## 📝 **text-to-binary.py**
 
 # Binary to Text Converter
 Author: Gregory L. Magnusson CC0 1.0 Universal
